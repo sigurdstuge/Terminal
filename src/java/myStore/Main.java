@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         Customer customer = new Customer(3000);
         Product jeans =  new Product("jeans",100);
         Product slacks = new Product("slacks", 100);
@@ -97,7 +97,7 @@ public class Main {
                         // NEsten akkurat det samme for å fjerne
                         System.out.println("choose products to remove from cart");
                         int remove = scanner.nextInt();
-                        customer.removeProductFromCart(selectedProduct, 4);
+                       // customer.removeProductFromCart(selectedProduct, 4);
                         break;
 
                     case 4:
